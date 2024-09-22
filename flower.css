@@ -1,0 +1,61 @@
+body {
+  background: #131b21;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+svg#flower-frame {
+  height: 90vh;
+  width: 100%;
+}
+
+#Footer_group_1_,
+[id^="PinkFlowerGroup"],
+[id^="BaseGroup"] path,
+[id^="LeafGroup"] path,
+path[id^="Stroke"],
+g[id^="BudGroup"] g[id^="BudGroup"] g[id^="Bud"],
+#Bud8_1_,
+#Bud10_1_,
+#Bud23_1_,
+#Bud26_1_,
+[id^="Dots"],
+[id^="Flourish"] {
+  visibility: hidden;
+}
+
+.st8 {
+  fill: #f4eb39; /* Cambia este color a amarillo */
+}
+
+.birthday-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffd700; /* Amarillo para que combine con las flores */
+  font-family: "Arial", sans-serif;
+}
+
+.birthday-message h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.birthday-message p {
+  font-size: 1.2em;
+  margin: 0;
+  font-style: italic;
+}
+
+.birthday-message img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
